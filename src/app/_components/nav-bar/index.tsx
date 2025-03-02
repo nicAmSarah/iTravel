@@ -6,11 +6,10 @@ export function NavBar(){
         <div>
             <header className="p-3 md:p-5 border-2 md:border-3 border-b-border/20 border-x-navbar border-t-navbar">
                 <div className="flex justify-between text-text">
-                    <Link href="../src/app/page.tsx">
-                        <Image src="/logo.svg" alt="logo " width={40} height={40}/>
-
+                    <Link  className="pl-25" href="../src/app/page.tsx">
+                        <Image src="/logo.svg" alt="logo " width={50} height={50}/>
                     </Link>
-                    <div className="flex pt-1 text-sm md:text-base font-bold flex-row-reverse gap-4">
+                    <div className="flex pt-1 text-sm md:text-base font-bold w-2/5 pr-25 justify-between flex-row-reverse gap-4">
                         <Link href="/login">
                             Login
                         </Link>
